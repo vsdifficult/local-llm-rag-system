@@ -1,1 +1,6 @@
-# local-llm-rag-system
+# local-llm-rag-system 
+
+Requirements installation
+```
+pip install -r .\requirements.txt 
+```
