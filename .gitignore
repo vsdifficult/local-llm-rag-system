@@ -1,0 +1,44 @@
+# --- Python Byte-Code & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual Environments (Never commit these!) ---
+.venv/
+venv/
+ENV/
+env/
+envVars.txt
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+secrets.toml
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Build & Distribution Packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+wheels/
+
+# --- Popular IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- System Operating Files ---
+.DS_Store
+Thumbs.db
